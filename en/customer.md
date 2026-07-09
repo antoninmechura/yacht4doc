@@ -71,9 +71,8 @@ No monthly software subscription — you only pay for a SIM data plan.
 | Model | What's included | Price |
 |-------|----------------|-------|
 | **Yacht4SRV Base** | Gateway box, SD card, installation cables | ~€315 |
-| **Yacht4SRV LTE** | Base + integrated LTE module, remote dashboard | ~€435 |
-| **Yacht4SRV LTE+** | LTE + data SIM card for 1 year | ~€555 |
-| **Installation** | On-site fitting and commissioning (2–4 hours) | by arrangement |
+| **Yacht4SRV LTE+** | LTE + required data SIM card for 1 year | ~€555 |
+| **Installation** | On-site fitting and commissioning (8 hours) | by arrangement |
 
 > **No annual software fees.** Remote monitoring only requires a data SIM card (~€8–16/month).
 
@@ -105,9 +104,9 @@ Nothing changes on board. All data works offline — the chartplotter shows engi
 Yes. The system supports 1 or 2 Yanmar engines, each on a separate galvanically isolated CAN channel.
 
 **Do I have to pay a subscription?**  
-No software subscription. Remote monitoring (Grafana dashboard) requires your own server or VPS (~€5–12/month) and a data SIM card. The Base variant works entirely without internet.
+No software subscription. Remote monitoring (Grafana dashboard) requires a data SIM card (~€8–16/month).
 
-**I have a Lagoon 400/450/500 — will it work?**  
+**I have a Lagoon 4xx/5xx — will it work?**  
 Yes, Yacht4SRV was primarily designed and verified for exactly this type of vessel.
 
 **Is it a certified device?**  
