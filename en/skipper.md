@@ -15,7 +15,7 @@ The router connects to the internet via a mobile network. To use the internet fo
 4. Connect to the WiFi network and internet will work through your SIM
 
 **WiFi network:**
-- Name (SSID): `RUT_SOUL_2G`
+- Name (SSID): `RUT_SOUL_5G`
 - Password: __________________ *(to be filled in by owner)*
 
 > When you leave or arrive at port, simply remove your SIM — the router returns to the owner's backup network.

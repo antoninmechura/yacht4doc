@@ -75,9 +75,10 @@ Displays: position, SOG, COG, heading, STW, log, wind (apparent + true), depth, 
 - **SIM 2** (bottom slot) — owner's data SIM, always present, always active as fallback
 - **SIM 1** (top slot) — guest/skipper SIM; when inserted, all internet traffic routes through it automatically. When removed, system falls back to SIM 2 within ~90 seconds.
 
-**WiFi network for boat devices:**
-- SSID: `RUT_SOUL_2G` (hidden — not visible in WiFi scan, for instruments only)
-- Password: *(provided separately by owner)*
+**WiFi networks:**
+- SSID: `RUT_SOUL_5G` — visible network for skippers, guests and technicians
+- SSID: `RUT_SOUL_2G` — hidden, for instruments only (Yacht4CAN, Yacht4Mon)
+- Password for `RUT_SOUL_5G`: *(provided separately by owner)*
 
 **Router admin access:**
 - URL: `http://192.168.100.1` (from boat LAN)
@@ -166,7 +167,7 @@ The owner can access all dashboards from anywhere in the world using the VPN con
 ### Web dashboard shows `---` for all values
 
 1. Check Yacht4Mon is powered
-2. Check boat WiFi — are you connected to `RUT_SOUL_2G`?
+2. Check boat WiFi — are you connected to `RUT_SOUL_5G`?
 3. Try `http://192.168.100.3` — if page doesn't load, Yacht4Mon has no IP (WiFi issue)
 4. NMEA 2000 network must be powered for instrument data to appear
 

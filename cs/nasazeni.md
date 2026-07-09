@@ -102,12 +102,20 @@ Dashboards → Import → Upload JSON → nastavit Prometheus datasource.
 3. **Network → LAN** → IP: `192.168.100.1`, maska `255.255.255.0`
 4. **Network → Mobile** → SIM2 karta vložena, APN nastaveno
 
-### 2.2 WiFi — síť pro lodní IoT zařízení
+### 2.2 WiFi — dvě sítě
 
-**Network → Wireless → Add:**
+Nakonfigurovat **dvě samostatné WiFi sítě:**
+
+**Síť pro lodní přístroje (IoT) — Network → Wireless → Add:**
 - SSID: `RUT_SOUL_2G` (nebo vlastní název)
-- Skrytý SSID: **on** (nezobrazuje se při prohledávání)
-- Zabezpečení: WPA2, silné heslo
+- Skrytý SSID: **on** (neviditelná pro uživatele)
+- Zabezpečení: WPA2
+- Zóna: **lan**
+
+**Síť pro hosty a skipery — Network → Wireless → Add:**
+- SSID: `RUT_SOUL_5G` (nebo vlastní název)
+- Skrytý SSID: **off** (viditelná)
+- Zabezpečení: WPA2, sděleno skipperovi
 - Zóna: **lan**
 
 ### 2.3 WireGuard VPN

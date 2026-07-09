@@ -16,7 +16,7 @@ Router je připojen přes mobilní síť. Pokud chcete používat internet pro s
 
 **WiFi síť:**
 - Název (SSID): `RUT_SOUL_5G`
-- Heslo: __________________ *(doplní majitel)*
+- Heslo: Požádejte si o něj telegramem
 
 > Po vyplutí nebo přistání jednoduše SIM vytáhněte — router se vrátí na záložní síť majitele.
 

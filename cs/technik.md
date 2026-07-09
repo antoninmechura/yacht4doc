@@ -70,9 +70,10 @@ Zobrazuje: polohu, SOG, COG, kurz, STW, log, vítr (zdánlivý + pravý), hloubk
 - **SIM 2** (spodní slot) — datová SIM majitele, vždy přítomna, záložní
 - **SIM 1** (horní slot) — SIM skipera/hosta; při vložení se automaticky veškerý provoz přesměruje přes ni; po vytažení systém přepne zpět na SIM 2 do ~90 sekund
 
-**WiFi síť pro lodní zařízení:**
-- SSID: `RUT_SOUL_2G` (skrytá — není viditelná při prohledávání WiFi sítí, pouze pro přístroje)
-- Heslo: *(dodá majitel)*
+**WiFi sítě:**
+- SSID: `RUT_SOUL_5G` — viditelná síť pro hosty, skipery a techniky
+- SSID: `RUT_SOUL_2G` — skrytá, pouze pro lodní přístroje (Yacht4CAN, Yacht4Mon)
+- Heslo k `RUT_SOUL_5G`: *(dodá majitel)*
 
 **Správa routeru:**
 - URL: `http://192.168.100.1` (z lodní LAN)
@@ -161,7 +162,7 @@ Majitel přistupuje ke všem dashboardům odkudkoliv přes VPN. Vzdálený Grafa
 ### Web dashboard zobrazuje `---` u všech hodnot
 
 1. Zkontrolovat napájení Yacht4Mon
-2. Zkontrolovat lodní WiFi — jste připojeni k `RUT_SOUL_2G`?
+2. Zkontrolovat lodní WiFi — jste připojeni k `RUT_SOUL_5G`?
 3. Zkusit `http://192.168.100.3` — pokud se stránka nenačte, Yacht4Mon nemá IP (WiFi problém)
 4. NMEA2000 síť musí mít napájení, aby se data přístrojů zobrazovala
 

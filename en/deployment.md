@@ -102,12 +102,20 @@ Dashboards → Import → Upload JSON → set Prometheus datasource.
 3. **Network → LAN** → IP: `192.168.100.1`, mask `255.255.255.0`
 4. **Network → Mobile** → insert SIM2, configure APN
 
-### 2.2 WiFi — network for IoT devices
+### 2.2 WiFi — two separate networks
 
-**Network → Wireless → Add:**
+Configure **two WiFi networks:**
+
+**IoT network for instruments — Network → Wireless → Add:**
 - SSID: `RUT_SOUL_2G` (or your own name)
-- Hidden SSID: **on**
-- Security: WPA2, strong password
+- Hidden SSID: **on** (not visible to users)
+- Security: WPA2
+- Zone: **lan**
+
+**Guest/skipper network — Network → Wireless → Add:**
+- SSID: `RUT_SOUL_5G` (or your own name)
+- Hidden SSID: **off** (visible)
+- Security: WPA2, shared with skipper
 - Zone: **lan**
 
 ### 2.3 WireGuard VPN
