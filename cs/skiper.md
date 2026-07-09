@@ -6,16 +6,16 @@
 
 Router je připojen přes mobilní síť. Pokud chcete používat internet pro sebe a posádku, **vložte svou SIM kartu do slotu SIM1** v routeru RUTX11.
 
-> Router se nachází v _______________________ *(doplní majitel)*.
+> Router se nachází v salonu v stolku pro kapitána
 
 **Postup:**
-1. Otevřete kryt SIM slotů na routeru
+1. Identifikujte  SIM sloty na routeru
 2. Vložte SIM kartu do slotu označeného **SIM 1**
 3. Počkejte přibližně **2 minuty** — router automaticky přepne na vaši SIM
 4. Připojte se k WiFi síti a internet bude fungovat přes vaši SIM
 
 **WiFi síť:**
-- Název (SSID): `RUT_SOUL_2G`
+- Název (SSID): `RUT_SOUL_5G`
 - Heslo: __________________ *(doplní majitel)*
 
 > Po vyplutí nebo přistání jednoduše SIM vytáhněte — router se vrátí na záložní síť majitele.
@@ -48,7 +48,7 @@ Dashboard se automaticky obnovuje každé 2 sekundy a zobrazuje:
 
 Pokud něco nefunguje, napište prosím majiteli:
 
-**Telegram:** `@__________________` *(doplní majitel)*
+**Telegram:** `@mbt674`
 
 > Telegram je zdarma — zprávu lze poslat i přes web na [web.telegram.org](https://web.telegram.org) bez instalace aplikace.
 
