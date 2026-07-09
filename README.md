@@ -17,6 +17,7 @@ Yacht4SRV čte data z Yanmar motorů (J1939 CAN bus), převádí je do NMEA2000 
 
 | Role | Co potřebujete | Dokumentace |
 |------|---------------|------------|
+| 🛒 **Zajímám se o koupi** | Co to umí, kompatibilita, varianty, cena | [cs/zakaznik.md](cs/zakaznik.md) |
 | 🧭 **Skiper / Host na lodi** | Jak použít internet na lodi, jak sledovat lodní data | [cs/skiper.md](cs/skiper.md) |
 | 🔧 **Technik lodi** | Co je nainstalováno, troubleshooting | [cs/technik.md](cs/technik.md) |
 | 🚢 **Přehled systému** | Architektura, komponenty, jak to funguje | [cs/system.md](cs/system.md) |
@@ -32,6 +33,7 @@ Yacht4SRV reads Yanmar engine data (J1939 CAN bus), converts it to NMEA2000 for 
 
 | Role | What you need | Documentation |
 |------|--------------|--------------|
+| 🛒 **Interested in buying** | What it does, compatibility, variants, pricing | [en/customer.md](en/customer.md) |
 | 🧭 **Skipper / Guest on board** | How to use the internet, how to view vessel data | [en/skipper.md](en/skipper.md) |
 | 🔧 **Boat technician** | What is installed, troubleshooting guide | [en/technician.md](en/technician.md) |
 | 🚢 **System overview** | Architecture, components, how it works together | [en/overview.md](en/overview.md) |
