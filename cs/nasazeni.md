@@ -239,6 +239,18 @@ CAN4 výstup → NMEA2000 Micro-C:
 > **KRITICKÉ:** Každý CAN kanál potřebuje 120 Ω terminační rezistor na straně desky.  
 > Bez rezistoru: MCP2515 přijme 0 rámců i když loopback test projde.
 
+![Deutsch 6-pin DT konektor k Yanmar ECU (žlutý=CANH, zelený=CANL, černý=GND)](../img/deutsch-dt-connector-yanmar.jpg)
+
+![Yanmar ECU — konektory u pravého motoru (STBD)](../img/yanmar-ecu-connectors-stbd.jpg)
+
+![Yanmar ECU — diagnosis konektor a zelený main konektor (PORT)](../img/yanmar-ecu-connectors-port.jpg)
+
+![Yacht4CAN — deska v IP krabičce instalovaná na lodi, M12 kabelový průchod dole](../img/yacht4can-cable-entry.jpg)
+
+![Yacht4CAN — PCB v krabičce, CAN svorky 1–4, WiFi anténa](../img/yacht4can-enclosure-open.jpg)
+
+![Kabelový rozvod v podpalubí — terminální lišta s označenými vodiči](../img/cable-routing-terminal-block.jpg)
+
 ### 3.5 Ověření — sériová konzole (115200 baud)
 
 Očekávaný výstup:

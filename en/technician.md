@@ -5,8 +5,6 @@
 **Version:** 1.0 — July 2026  
 **Language:** English
 
-> *Photos to be added by owner.*
-
 ---
 
 ## Overview — What Is Installed
@@ -26,8 +24,6 @@ Three custom electronic devices have been added to the vessel alongside the exis
 
 **Function:** Reads Yanmar engine data (J1939 CAN bus) and converts it to NMEA 2000, so the B&G Zeus3S chartplotter can display engine information.
 
-**Location:** *(photo placeholder)*
-
 **Connections:**
 - **CAN2** → Starboard (STBD) engine — yellow/green cable, Deutsch 6-pin DT connector
 - **CAN3** → Port engine — yellow/green cable, Deutsch 6-pin DT connector
@@ -41,15 +37,15 @@ Three custom electronic devices have been added to the vessel alongside the exis
 
 > ⚠️ **Do not disconnect CAN cables while engines are running.**
 
-*(Photo: Yacht4CAN board, CAN connectors, termination resistors)*
+![Yacht4CAN — board in IP enclosure, CAN terminals and WiFi antenna visible](../img/yacht4can-enclosure-open.jpg)
+
+![Deutsch 6-pin DT connector — Yanmar J1939 (yellow=CANH, green=CANL)](../img/deutsch-dt-connector-yanmar.jpg)
 
 ---
 
 ### 2. Yacht4Mon — NMEA 2000 Monitor
 
 **Function:** Listens to the NMEA 2000 network and publishes all instrument data (navigation, wind, depth, engines, attitude) to a local web page and to a remote Grafana dashboard via LTE.
-
-**Location:** *(photo placeholder)*
 
 **Connections:**
 - **NMEA 2000** → backbone via Micro-C connector (listen-only — does not transmit anything to the network)
@@ -61,15 +57,13 @@ http://192.168.100.3
 ```
 Displays: position, SOG, COG, heading, STW, log, wind (apparent + true), depth, heel, trim, sea temperature, engine data, battery status. Auto-refreshes every 2 seconds.
 
-*(Photo: Yacht4Mon board, NMEA 2000 connection)*
+![Engine room — NAC-3 autopilot computer and electronics in the lazarette](../img/engine-room-electronics.jpg)
 
 ---
 
 ### 3. RUTX11 — LTE Router
 
 **Function:** Provides boat WiFi network, LTE mobile internet, and a secure VPN tunnel to the owner's server for remote monitoring.
-
-**Location:** *(photo placeholder)*
 
 **SIM card slots:**
 - **SIM 2** (bottom slot) — owner's data SIM, always present, always active as fallback
@@ -84,8 +78,6 @@ Displays: position, SOG, COG, heading, STW, log, wind (apparent + true), depth, 
 - URL: `http://192.168.100.1` (from boat LAN)
 - Admin credentials: *(provided separately by owner)*
 - Read-only account: username `skiper` *(password provided separately)*
-
-*(Photo: RUTX11 router, SIM slots, antenna)*
 
 ---
 

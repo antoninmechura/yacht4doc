@@ -71,9 +71,8 @@ Bez měsíčního předplatného za software — platíte jen za SIM kartu.
 | Model | Co obsahuje | Cena |
 |-------|------------|------|
 | **Yacht4SRV Base** | Gateway box, SD karta, instalační kabeláž | 7 900 Kč (~315 €) |
-| **Yacht4SRV LTE** | Base + integrovaný LTE modul, vzdálený dashboard | 10 900 Kč (~435 €) |
-| **Yacht4SRV LTE+** | LTE + datová SIM karta na 1 rok | 13 900 Kč (~555 €) |
-| **Instalace** | Montáž + uvedení do provozu (2–4 hodiny) | dle lokality |
+| **Yacht4SRV LTE+** | LTE + nutná datová SIM karta na 1 rok | 13 900 Kč (~555 €) |
+| **Instalace** | Montáž + uvedení do provozu (8 hodin) | dle lokality |
 
 > **Žádné roční poplatky za software.** Vzdálený monitoring vyžaduje pouze datovou SIM kartu (~200–400 Kč/měsíc).
 
@@ -105,9 +104,9 @@ Nic. Všechna data fungují offline — chartplotter zobrazuje motory, web dashb
 Ano. Systém podporuje 1 nebo 2 Yanmar motory, každý na samostatném galvanicky izolovaném CAN kanálu.
 
 **Musím platit předplatné?**  
-Ne za software. Vzdálený monitoring (Grafana dashboard) vyžaduje vlastní server nebo VPS (~100–300 Kč/měsíc) a datovou SIM kartu. Variant Base funguje zcela bez internetu.
+Ne za software. Vzdálený monitoring (Grafana dashboard) vyžaduje vlastní server nebo VPS (~100–300 Kč/měsíc) a datovou SIM kartu.  
 
-**Mám Lagoon 400/450/500 — funguje to?**  
+**Mám Lagoon /4xx/5xx — funguje to?**  
 Ano, přesně pro tento typ lodí byl Yacht4SRV primárně navržen a ověřen.
 
 **Je to certifikované zařízení?**  

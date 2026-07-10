@@ -239,6 +239,18 @@ CAN4 output → NMEA2000 Micro-C:
 > **CRITICAL:** Each CAN channel requires a 120 Ω termination resistor at the board end.  
 > Without it: MCP2515 receives 0 frames even if loopback test passes.
 
+![Deutsch 6-pin DT connector to Yanmar ECU (yellow=CANH, green=CANL, black=GND)](../img/deutsch-dt-connector-yanmar.jpg)
+
+![Yanmar ECU — connectors on STBD (starboard) engine](../img/yanmar-ecu-connectors-stbd.jpg)
+
+![Yanmar ECU — diagnosis connector and green main connector (PORT)](../img/yanmar-ecu-connectors-port.jpg)
+
+![Yacht4CAN — board installed on boat, M12 cable gland at bottom](../img/yacht4can-cable-entry.jpg)
+
+![Yacht4CAN — PCB in enclosure, CAN terminals 1–4, WiFi antenna](../img/yacht4can-enclosure-open.jpg)
+
+![Cable routing in lazarette — terminal block with labelled conductors](../img/cable-routing-terminal-block.jpg)
+
 ### 3.5 Verification — serial console (115200 baud)
 
 Expected output:

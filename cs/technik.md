@@ -3,8 +3,6 @@
 **Určeno:** Technikům firmy starající se o loď  
 **Verze:** 1.0 — červenec 2026
 
-> *Fotky doplní majitel.*
-
 ---
 
 ## Co je nainstalováno
@@ -21,8 +19,6 @@ Na lodi jsou tři přidaná elektronická zařízení, která pracují spolu s e
 
 **Funkce:** Čte Yanmar J1939 data (RPM, teplota, olej, palivo, napětí, motohodiny) a převádí je do NMEA2000 pro zobrazení na Zeus3S.
 
-**Umístění:** *(foto placeholder)*
-
 **Připojení:**
 - **CAN2** → pravý motor (STBD) — Deutsch 6-pin DT konektor (žlutý=CANH, zelený=CANL)
 - **CAN3** → levý motor (PORT) — Deutsch 6-pin DT konektor (žlutý=CANH, zelený=CANL)
@@ -36,15 +32,15 @@ Na lodi jsou tři přidaná elektronická zařízení, která pracují spolu s e
 
 > ⚠️ **Neodpojujte CAN kabely při běžících motorech.**
 
-*(Foto: Yacht4CAN deska, CAN konektory, terminační rezistory)*
+![Yacht4CAN — deska v IP krabičce, viditelné CAN svorky a WiFi anténa](../img/yacht4can-enclosure-open.jpg)
+
+![Deutsch 6-pin DT konektor — Yanmar J1939 (žlutý=CANH, zelený=CANL)](../img/deutsch-dt-connector-yanmar.jpg)
 
 ---
 
 ## Yacht4Mon — NMEA2000 monitor
 
 **Funkce:** Pasivně poslouchá NMEA2000 síť a publikuje veškerá lodní data (navigace, vítr, hloubka, motory, náklon) na lokální web stránce a vzdáleně přes LTE do Grafana dashboardu.
-
-**Umístění:** *(foto placeholder)*
 
 **Připojení:**
 - **NMEA2000** → backbone přes Micro-C konektor (pouze příjem — nevysílá nic do sítě)
@@ -56,7 +52,7 @@ http://192.168.100.3
 ```
 Zobrazuje: polohu, SOG, COG, kurz, STW, log, vítr (zdánlivý + pravý), hloubku, náklon, trim, teplotu moře, data motorů, baterie. Obnovuje se automaticky každé 2 sekundy.
 
-*(Foto: Yacht4Mon deska, NMEA2000 konektor)*
+![Motorový prostor — NAC-3 autopilot a elektroinstalace v podpalubí](../img/engine-room-electronics.jpg)
 
 ---
 
@@ -79,8 +75,6 @@ Zobrazuje: polohu, SOG, COG, kurz, STW, log, vítr (zdánlivý + pravý), hloubk
 - URL: `http://192.168.100.1` (z lodní LAN)
 - Přihlášení admin: *(dodá majitel)*
 - Read-only účet pro techniky: uživatel `skiper` *(heslo dodá majitel)*
-
-*(Foto: RUTX11 router, SIM sloty, anténa)*
 
 ---
 

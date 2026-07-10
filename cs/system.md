@@ -149,6 +149,22 @@ Grafana dashboard (historická data, grafy, geomap)
 
 ---
 
+## Ukázky
+
+### B&G Zeus3S — data motorů za plavby
+
+![B&G Zeus3S — engine stránka s RPM PORT/STBD, teploty, olej, palivo, motohodiny](../img/bg-zeus3s-engine-page.jpg)
+
+### Grafana — vzdálený monitoring
+
+![Grafana dashboard (CS) — přehled motorů, navigace a GPS trasy](../img/grafana-dashboard-cs.png)
+
+![Grafana — detailní grafy motorů (RPM, teplota, olej, palivo)](../img/grafana-engines-detail.png)
+
+![Grafana — GPS trasa lodi](../img/grafana-gps-track.png)
+
+---
+
 ## Stav projektu
 
 | Komponenta | Stav | Ověřeno |

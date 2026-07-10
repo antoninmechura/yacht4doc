@@ -149,6 +149,22 @@ Grafana dashboard (historical data, charts, geomap)
 
 ---
 
+## Screenshots
+
+### B&G Zeus3S — engine data in operation
+
+![B&G Zeus3S engine page showing RPM PORT/STBD, temperatures, oil, fuel, engine hours](../img/bg-zeus3s-engine-page.jpg)
+
+### Grafana — remote monitoring dashboard
+
+![Grafana dashboard (EN) — engines, navigation and GPS track overview](../img/grafana-dashboard-en.png)
+
+![Grafana — detailed engine graphs (RPM, temperature, oil, fuel)](../img/grafana-engines-detail.png)
+
+![Grafana — GPS vessel track](../img/grafana-gps-track.png)
+
+---
+
 ## Project status
 
 | Component | Status | Verified |
